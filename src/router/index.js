@@ -61,6 +61,11 @@ export default new Router({
       ]
     },
     {
+      path: "/factors",
+      name: "factors",
+      component: () => import("@/views/Factors")
+    },
+    {
       name: "article",
       path: "/articles/:slug",
       component: () => import("@/views/Article"),

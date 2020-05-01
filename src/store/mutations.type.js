@@ -1,5 +1,7 @@
 export const FETCH_END = "setArticles";
 export const FETCH_START = "setLoading";
+export const FETCH_FACTOR_END = "setFactors";
+export const FETCH_FACTOR_START = "setLoadingFactors";
 export const PURGE_AUTH = "logOut";
 export const SET_ARTICLE = "setArticle";
 export const SET_AUTH = "setUser";

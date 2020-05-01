@@ -3,6 +3,7 @@ import Vuex from "vuex";
 
 import home from "./home.module";
 import auth from "./auth.module";
+import factor from "./factor.modules";
 import article from "./article.module";
 import profile from "./profile.module";
 
@@ -13,6 +14,7 @@ export default new Vuex.Store({
     home,
     auth,
     article,
-    profile
+    profile,
+    factor
   }
 });

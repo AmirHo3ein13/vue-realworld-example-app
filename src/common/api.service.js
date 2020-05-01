@@ -96,6 +96,18 @@ export const CommentsService = {
   }
 };
 
+export const FactorsService = {
+  get() {
+    return ApiService.get("factors");
+  },
+
+  query(params) {
+    return ApiService.query("factors", {
+      params: params
+    });
+  }
+};
+
 export const FavoriteService = {
   add(slug) {
     return ApiService.post(`articles/${slug}/favorite`);
